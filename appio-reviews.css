@@ -1,0 +1,1950 @@
+@font-face {
+  font-family: "AppioSymbols";
+  src: url("data:application/font-woff;base64,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")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --appio-styles: loaded;
+  --appio-major-color: #003366;
+  --appio-box-border-color: rgba(0, 0, 0, 0.1);
+  --appio-button-border-color: rgba(0, 0, 0, 0.2);
+  --appio-button-border-radius: 0;
+  --appio-average-rating-border-radius: 0;
+  --appio-review-card-border-radius: 0;
+  --appio-review-card-fill: rgba(255, 255, 255, 0.25);
+  --appio-readmore-fill: #ffffff;
+  --appio-star-size: 18px;
+  --appio-border-size: 0;
+  --appio-star-color: var(--appio-major-color);
+  --appio-average-color: #ffffff;
+  --appio-highlight-color: var(--appio-major-color);
+  --appio-action-button-fill: var(--appio-major-color);
+  --appio-action-button-color: #ffffff;
+  --appio-color-text: unset;
+  --appio-color-background: unset;
+  --appio-rating-badge-background: unset;
+  --appio-rating-badge-color: unset;
+  --appio-rating-badge-padding: __foo;
+  --appio-card-spacing: 20px;
+  --appio-card-min-width: 250px;
+  --appio-card-max-width: 400px;
+  --appio-scrollbar-width: 0;
+  --appio-verified-color: #1c96e9;
+  --appio-thumb-size: 60px;
+  --appio-review-lines: 18;
+  --appio-readmore: "... Read more";
+}
+body {
+  transition: padding 0s;
+}
+.appio-review-item img[src=""],
+.appio-review-item video[src=""] {
+  display: none !important;
+}
+.appio-reviews-widget *:empty,
+.appio-backdrop *:empty {
+  display: unset;
+}
+
+.appio-reviews-widget,
+.appio-backdrop {
+  font-size: var(--appio-fontsize);
+  font-weight: normal;
+}
+
+.appio-reviews-widget a {
+  color: unset;
+  text-decoration: none;
+}
+.appio-reviews-widget a:hover {
+  text-decoration: underline;
+}
+
+.appio-thin-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.appio-thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #00336666;
+  border-radius: 5px;
+}
+.appio-thin-scrollbar {
+  overflow: auto;
+  visibility: hidden;
+  padding-right: 5px;
+}
+.appio-thin-scrollbar > *,
+.appio-thin-scrollbar:hover,
+.appio-thin-scrollbar:focus {
+  visibility: visible;
+}
+
+.appio-swiper-media {
+  width: 100%;
+  height: 100%;
+  --swiper-navigation-color: lightgray;
+  --swiper-pagination-color: lightgray;
+  --swiper-pagination-bullet-inactive-color: #eee;
+  text-rendering: initial;
+}
+.appio-swiper-media .swiper-slide {
+  overflow: hidden;
+}
+.appio-swiper-media .swiper-pagination-bullet {
+  background: #eee;
+  display: inline-block;
+}
+.appio-swiper-media .swiper-button-next,
+.appio-swiper-media .swiper-button-prev {
+  display: initial !important;
+}
+.appio-swiper-media .swiper-button-next {
+  right: 18px;
+}
+.appio-swiper-media .swiper-button-prev {
+  left: 18px;
+}
+.appio-swiper-media .swiper-button-disabled {
+  display: none !important;
+}
+.swiper-zoom-container > img,
+.swiper-zoom-container > video {
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0 25px 50px -12px; */
+  max-height: calc(100vh - 100px);
+  max-width: 100vw;
+}
+
+.appio-review-box ::placeholder {
+  color: #888;
+  opacity: 1;
+}
+.appio-review-box :-ms-input-placeholder {
+  color: #888;
+}
+.appio-review-box ::-ms-input-placeholder {
+  color: #888;
+}
+
+.appio-review-box label {
+  color: inherit;
+}
+
+.appio-reviews-widget {
+  margin: 0 auto 30px auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+  min-width: 66%;
+  position: relative;
+  line-height: 1.4;
+  text-align: initial;
+}
+.appio-reviews-widget button,
+.appio-review-box button,
+.appio-review-box input,
+.appio-review-box textarea {
+  padding: 0 16px;
+  border: max(1px, var(--appio-border-size)) solid
+    var(--appio-button-border-color);
+  border-radius: var(--appio-button-border-radius) !important;
+  background: transparent;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  margin: 8px 0;
+  width: auto;
+}
+.appio-reviews-widget button,
+.appio-reviews-widget input,
+.appio-review-box button,
+.appio-review-box input {
+  height: 40px;
+  box-sizing: border-box;
+}
+.appio-paging-button {
+  min-width: 40px;
+}
+.appio-paging-button[loading] {
+  background-image: repeating-linear-gradient(
+    90deg,
+    #ffffff00 0%,
+    #ffffff66 50%,
+    #ffffff00 100%
+  ) !important;
+  animation: reviewPageButtonLoading 1s infinite alternate;
+}
+.appio-paging-button[page="+"]:after,
+.appio-paging-button[last]:after {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 0;
+  border-top: 1px solid currentColor;
+  border-left: 1px solid currentColor;
+  transform: rotate(135deg);
+  margin-left: 6px;
+}
+.appio-paging-button[page="-"]:before,
+.appio-paging-button[first]:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 0;
+  border-top: 1px solid currentColor;
+  border-left: 1px solid currentColor;
+  transform: rotate(-45deg);
+  margin-right: 6px;
+}
+.appio-paging-button[last]:after,
+.appio-paging-button[first]:before {
+  border-width: 2px;
+  margin: 0;
+}
+.appio-paging-button[numbers] {
+  background: none;
+  border: none;
+  color: var(--appio-action-button-fill);
+  min-width: unset;
+  margin: 5px;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.appio-paging-button[numbers][active] {
+  background: var(--appio-action-button-fill);
+  color: var(--appio-action-button-color);
+  cursor: default;
+  border-radius: 40px !important;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  margin: auto 10px;
+}
+@keyframes reviewPageButtonLoading {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 60px;
+  }
+}
+
+.appio-reviews-widget button,
+.appio-review-box button,
+.appio-allrvs-container button {
+  cursor: pointer;
+  white-space: initial;
+  text-align: center;
+  border: var(--appio-border-button);
+  border-radius: var(--appio-button-border-radius);
+  color: var(--appio-action-button-color);
+  background: var(--appio-action-button-fill);
+  margin: 5px;
+  line-height: unset;
+}
+.appio-reviews-widget button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.appio-reviews-widget button[active] {
+  background-color: var(--appio-action-button-color);
+  color: var(--appio-action-button-fill);
+  border: max(1px, var(--appio-border-size)) solid
+    var(--appio-action-button-fill) !important;
+}
+.appio-reviews-widget button .appio-star {
+  color: unset;
+  margin: 0 4px 0 2px;
+  font-size: 14px;
+}
+.appio-reviews-widget button[active] .appio-star {
+  color: var(--appio-action-button-fill);
+}
+.appio-reviews-widget .appio-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.appio-header-container {
+  margin-top: 30px;
+}
+.appio-header-container:empty {
+  display: none;
+}
+.button-allrvs-more {
+  margin: 20px auto !important;
+  width: 200px;
+  height: 40px;
+  display: block;
+  font-size: 14px;
+}
+.button-allrvs-more[loading] {
+  position: relative !important;
+  pointer-events: none;
+}
+.appio-allrvs-section[nomore] .button-allrvs-more {
+  display: none;
+}
+
+.appio-review-box textarea {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  resize: vertical;
+  height: 100px;
+  width: 100%;
+}
+
+.appio-reviewer-wrapper {
+  display: flex;
+  width: 100%;
+}
+.appio-reviewer-wrapper div {
+  flex: 1;
+}
+.appio-reviewer-wrapper > div:nth-child(2) {
+  flex-grow: 0;
+  flex-basis: 16px;
+}
+
+.appio-review-box input {
+  min-width: 0;
+  width: 100%;
+}
+.appio-review-box input:focus,
+.appio-review-box textarea:focus {
+  outline: none;
+  border-color: var(--appio-action-button-fill);
+  box-shadow: none;
+}
+
+.appio-header-box {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-between;
+}
+
+.appio-reviews-section {
+  position: relative;
+  margin-top: 30px;
+}
+.appio-allrvs-section {
+  position: relative;
+  flex-grow: 1;
+}
+.appio-allrvs-section[mobile] {
+  overflow: auto;
+}
+
+.appio-reviews-section[line]
+  .appio-review-item-holder
+  + .appio-review-item-holder {
+  padding-left: 20px;
+}
+
+.appio-loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.appio-reviews-box {
+  position: relative;
+}
+.appio-reviews-box,
+.appio-allrvs-box {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.appio-paging-box {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.appio-rating-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appio-rating-average {
+  font-size: 32px;
+  font-weight: bold;
+  background: var(--appio-star-color);
+  color: var(--appio-average-color);
+  height: 74px;
+  width: 75px;
+  border: var(--appio-border-average);
+  border-radius: var(--appio-average-rating-border-radius);
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appio-rating-text {
+  font-size: var(--appio-fontsize-sub);
+  white-space: nowrap;
+}
+
+.appio-filter-box table {
+  border-collapse: collapse !important;
+  box-shadow: none !important;
+  table-layout: auto !important;
+  background: none;
+  border-style: hidden;
+  width: 70%;
+  min-width: 220px;
+  max-width: 320px;
+  margin: 0 20px;
+  position: unset;
+}
+.appio-filter-box td {
+  border: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  vertical-align: middle !important;
+  position: unset;
+}
+.appio-filter-box td:first-child {
+  padding-right: 10px !important;
+  width: 1px !important;
+}
+.appio-filter-box td:last-child {
+  padding: 0 5px 0 15px !important;
+  width: 1px !important;
+}
+
+.appio-reviews-widget[filters="button"] .appio-filter-item {
+  display: inline-block;
+  height: 32px !important;
+  margin: 5px !important;
+  padding: 0 10px;
+  border: var(--appio-border-button);
+  border-radius: calc(var(--appio-button-border-radius) / 1.25);
+  font-weight: normal;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.appio-reviews-widget[filters="button"] .appio-rating-text {
+  display: none;
+}
+
+.appio-reviews-widget[filters="button"] .appio-filter-box {
+  display: initial;
+}
+
+.appio-reviews-widget[filters="button"] .appio-rating-average {
+  margin: 5px 20px 5px 0;
+}
+
+.appio-reviews-widget[filters="button"] .appio-action-box {
+  margin: 0 auto;
+}
+
+.appio-reviews-widget[all-reviews] {
+  min-height: 400px;
+}
+
+.appio-filter-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.appio-header-box .appio-rating-line-star:hover + div,
+.appio-header-box .appio-rating-line-star:hover + div + div {
+  border-color: var(--appio-highlight-color);
+  font-weight: bold;
+}
+.appio-header-box .appio-rating-line-star[active] + div,
+.appio-header-box .appio-rating-line-star[active] + div + div {
+  border-color: var(--appio-highlight-color);
+  font-weight: bold;
+}
+.appio-rating-line-star[active] {
+  border-color: var(--appio-star-color);
+}
+.appio-rating-line-star[disabled] {
+  pointer-events: none;
+}
+
+.appio-filter-item {
+  cursor: pointer;
+}
+.appio-filter-item[disabled] {
+  pointer-events: none;
+}
+.appio-filter-item:hover .appio-rating-line-bar,
+.appio-filter-item[active] .appio-rating-line-bar {
+  border-color: var(--appio-highlight-color);
+}
+.appio-filter-item:hover .appio-rating-line-qty,
+.appio-filter-item[active] .appio-rating-line-qty {
+  font-weight: bold;
+}
+.appio-filter-item[active] .appio-rating-line-star {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.appio-rating-line-star {
+  padding: 1px 6px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  width: fit-content;
+  float: right;
+  line-height: 14px;
+  color: var(--appio-star-color);
+  display: flex;
+}
+.appio-rating-line-star .appio-stars {
+  margin: 0;
+}
+.appio-rating-line-bar {
+  width: 100%;
+  background: #fff;
+  height: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 6px;
+}
+.appio-rating-line-sub {
+  background: var(--appio-star-color);
+  height: 100%;
+  border-radius: 10px;
+}
+.appio-rating-line-qty {
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  text-align: right;
+  box-sizing: unset;
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+.appio-rating-line-qty:not([count="0"]) {
+  cursor: pointer;
+}
+.appio-rating-line-qty:not([count="0"]):hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.appio-rating-line-star[solid] .appio-star:not([solid]) {
+  display: none;
+}
+.appio-rating-line-star[number] .appio-star {
+  margin-left: 2px;
+}
+button.appio-filter-item {
+  padding: 0 10px;
+  min-width: 73px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.appio-powered-by a {
+  color: var(--appio-star-color);
+  text-decoration: none;
+  font-size: 12px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.appio-powered-by img {
+  height: 24px;
+  width: auto;
+  margin-left: 5px;
+  border: 0;
+}
+.appio-remove-brand {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 13px;
+  font-style: italic;
+  background: white;
+  border: 1px dashed #3399dd;
+  border-radius: 20px;
+  color: #3399dd;
+  padding: 2px 8px;
+  right: -8px;
+  margin-top: 30px;
+  transform-origin: 10% -100%;
+  cursor: pointer;
+}
+.appio-remove-brand svg {
+  position: absolute;
+  margin-left: -167px;
+  margin-top: -36px;
+  transform: scale(0.8, -0.9);
+}
+.appio-action-box {
+  margin-top: 3px;
+  display: flex;
+  gap: 10px;
+}
+.appio-action-box button {
+  background: var(--appio-action-button-fill);
+  border-radius: var(--appio-button-border-radius);
+  color: var(--appio-action-button-color);
+  margin: 5px 0;
+  height: 40px !important;
+  text-align: center;
+}
+.appio-action-box button[menu] {
+  position: relative;
+}
+.appio-action-box button[menu]:not(.appio-sort-button) {
+  color: var(--appio-action-button-fill);
+  background: none;
+  box-shadow: inset 0 0 0 1px var(--appio-action-button-fill);
+}
+.appio-action-box button[menu]:after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-top: 1px solid currentColor;
+  border-left: 1px solid currentColor;
+  transform: rotate(-135deg);
+  margin-left: 15px;
+  transform-origin: 30% 30%;
+  opacity: 0.65;
+}
+.appio-action-box button[menu] span:first-of-type {
+  opacity: 0.65;
+  text-transform: capitalize;
+}
+.appio-action-box button[menu] span:last-of-type {
+  margin-left: 10px;
+}
+button.appio-review-button {
+  min-width: 180px;
+  display: block;
+}
+button.appio-sort-button {
+  width: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: unset;
+}
+button.appio-sort-button:before {
+  content: "\bd";
+  font-family: "AppioSymbols";
+  font-size: 18px;
+}
+button.appio-sort-button:after {
+  content: unset !important;
+}
+
+.appio-backdrop[show] {
+  opacity: 1;
+  padding-top: 0;
+}
+.appio-backdrop {
+  opacity: 0;
+  padding-top: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease, padding-top 0.3s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10001;
+}
+
+.appio-review-box {
+  min-width: 360px;
+  max-width: 800px;
+  width: 66%;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: rgb(14 30 37 / 12%) 0 2px 4px 0, rgb(14 30 37 / 32%) 0 2px 16px 0;
+  border-radius: min(20px, var(--appio-review-card-border-radius));
+  color: #444;
+  position: relative;
+}
+.appio-allrvs-container {
+  min-width: 400px;
+  max-width: 1000px;
+  width: 75vw;
+  height: 100vh;
+  padding: 30px 50px;
+  background: #ffffff;
+  border-radius: min(20px, var(--appio-review-card-border-radius));
+  display: flex;
+  flex-direction: column;
+  color: #444;
+  position: relative;
+}
+.appio-review-form {
+  display: flex;
+  flex-direction: column;
+}
+.appio-review-box-header {
+  display: flex;
+}
+.appio-review-box-title {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+.appio-widget-title {
+  font-size: var(--appio-fontsize-header);
+  font-weight: 600;
+  flex-grow: 1;
+}
+.appio-header-container .appio-widget-title {
+  color: var(--appio-title-color);
+}
+.appio-review-item-main {
+  position: relative;
+  overflow: hidden;
+}
+
+.appio-review-product-title {
+  font-size: var(--appio-fontsize-sub);
+  cursor: pointer;
+  line-height: 1;
+  padding: 2px 6px;
+  border: 1px solid var(--appio-highlight-color);
+  border-radius: 9px;
+  display: block;
+  width: fit-content;
+  margin: 5px 15px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: -webkit-fill-available;
+  text-overflow: ellipsis;
+}
+.appio-review-product-title a,
+.appio-review-product-title a:hover {
+  color: var(--appio-highlight-color);
+  text-decoration: none;
+}
+
+.appio-review-item-name {
+  font-weight: bold;
+  flex-grow: 1;
+  /* overflow: hidden; */
+  margin-right: 10px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+.appio-review-flag-nation {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 15px;
+  /* transform: scale(0.5);
+  transform-origin: 0 0; */
+  vertical-align: text-top;
+  margin-right: 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 3px;
+}
+.appio-review-item {
+  color: var(--appio-color-text);
+  background-color: var(--appio-color-background);
+  border: var(--appio-border-review);
+  border-radius: var(--appio-button-border-radius);
+}
+.appio-review-item-date {
+  flex-shrink: 0;
+  /* padding-left: 5px; */
+}
+.appio-review-verified {
+  display: flex;
+  align-items: center;
+  color: var(--appio-verified-color);
+}
+.appio-review-verified span {
+  margin-left: 0.2em;
+  font-size: 0.8em;
+}
+.appio-review-verified svg {
+  height: 1.3em;
+  width: 1.3em;
+}
+.appio-reviews-section[slide] .appio-review-verified svg {
+  margin-left: 10px;
+}
+
+.appio-review-item-title {
+  display: block;
+  margin-top: 0.5em;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+.appio-review-item-media-box {
+  margin-top: 10px;
+  overflow-y: hidden;
+  display: flex;
+}
+.appio-review-item-media-box-top {
+  overflow: hidden;
+  display: flex;
+  /* border-radius: var(--appio-review-card-border-radius)
+    var(--appio-review-card-border-radius) 0 0; */
+}
+.appio-review-media-item {
+  cursor: pointer !important;
+  pointer-events: unset !important;
+  position: relative;
+}
+.appio-review-media-item + .appio-review-media-item {
+  margin-left: 10px;
+}
+.appio-review-item-media-box .appio-review-media-item {
+  height: var(--appio-thumb-size);
+  width: var(--appio-thumb-size);
+  object-fit: cover;
+  overflow-clip-margin: unset;
+  overflow: hidden;
+}
+.appio-review-item-media-box-top .appio-review-media-item {
+  height: auto;
+  width: 100%;
+  flex-shrink: 0;
+  max-height: 180px;
+  object-fit: cover;
+  overflow-clip-margin: unset;
+}
+.appio-review-media-count {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.appio-review-media-count > div {
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 2px 5px;
+  line-height: 1;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-wrap: nowrap;
+}
+.appio-review-media-count > div:first-child {
+  z-index: 1;
+  top: 4px;
+  right: 4px;
+  box-shadow: #00000020 0 0 3px;
+  text-shadow: black 0 0 2px;
+}
+.appio-review-media-count > div:last-child {
+  color: transparent;
+  border-left: none;
+  border-bottom: none;
+}
+.appio-review-media-item video {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+.appio-review-item[card] .appio-review-media-item video {
+  width: 100%;
+}
+.appio-review-media-item[video] {
+  background: rgba(0, 0, 0, 0.5);
+  width: auto;
+}
+.appio-review-media-item[video]:before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000a0' stroke='white' stroke-width='20' height='30' viewBox='-20 -20 536 536'%3E%3Cpath d='M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM188.3 147.1c-7.6 4.2-12.3 12.3-12.3 20.9V344c0 8.7 4.7 16.7 12.3 20.9s16.8 4.1 24.3-.5l144-88c7.1-4.4 11.5-12.1 11.5-20.5s-4.4-16.1-11.5-20.5l-144-88c-7.4-4.5-16.7-4.7-24.3-.5z'/%3E%3C/svg%3E");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+.appio-review-item-media-box-top > *:not(:first-child) {
+  display: none;
+}
+
+.appio-close-button {
+  width: 30px;
+  height: 30px;
+  right: 0;
+  top: 0;
+  margin: 20px;
+  position: absolute;
+  cursor: pointer;
+  display: block !important;
+}
+.appio-close-button:before {
+  font-family: AppioSymbols;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 1;
+  content: "\bc";
+  transition: all 0.3s ease;
+  display: block;
+}
+.appio-close-button:hover:before {
+  color: red;
+  transform: rotate(90deg);
+}
+
+#appio-img-box .appio-close-button {
+  z-index: 1;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.appio-menu {
+  display: none;
+  color: initial;
+  background: white;
+  border: max(1px, var(--appio-border-size)) solid
+    var(--appio-button-border-color);
+  border-radius: min(20px, var(--appio-button-border-radius));
+  box-shadow: rgb(0 0 0 / 20%) 0 18px 30px -10px;
+  position: absolute;
+  padding: 20px;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  text-align: left;
+  width: max-content;
+  min-width: 100%;
+  cursor: default;
+  font-weight: normal;
+  text-transform: none;
+}
+.appio-sort-button .appio-menu {
+  left: unset;
+  right: 0;
+  min-width: 168px;
+}
+.appio-menu-item {
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0 16px;
+  pointer-events: auto;
+  line-height: 2.2;
+  background: unset;
+  text-transform: capitalize;
+}
+.appio-menu-item[active] {
+  cursor: default;
+  color: var(--appio-star-color);
+}
+.appio-menu-item[active]:after {
+  content: "\2713";
+  float: right;
+  color: var(--appio-star-color);
+  margin-left: 0.8em;
+  position: absolute;
+}
+.appio-menu-item:hover {
+  color: var(--appio-highlight-color);
+}
+.appio-menu-line {
+  display: block !important;
+  border-top: 1px solid #e0e0e0;
+  margin: 5px 0;
+}
+.appio-menu-title {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+.appio-reply-box {
+  color: var(--appio-reply-color);
+  background: rgba(0, 0, 0, 0.04);
+  padding: 16px;
+  border-radius: calc(var(--appio-button-border-radius) * 0.75);
+}
+.appio-reply-box h3 {
+  margin: 0 0 5px 0;
+  font-size: unset;
+  font-weight: bold;
+  color: inherit;
+}
+
+#appio-img-box {
+  z-index: 10002;
+}
+
+.appio-sidebar {
+  right: 0;
+  transform: rotate(90deg) translate(50%, 50%);
+  width: 0;
+  position: fixed;
+  z-index: 10000;
+  top: calc(50% - 20px);
+  display: flex;
+  justify-content: center;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+.appio-sidebar-content {
+  padding: 10px 20px 15px 20px;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  width: auto;
+  white-space: nowrap;
+  border-radius: 0 0 15px 15px;
+  margin: 0 8px 0 8px;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  color: white;
+  background-color: var(--appio-major-color);
+  box-shadow: #fff 0 0 3px;
+}
+
+.appio-stars {
+  display: flex;
+  margin-top: calc(0.5 * var(--appio-star-size));
+  margin-bottom: calc(0.5 * var(--appio-star-size));
+  align-items: center;
+  letter-spacing: 0;
+}
+
+.appio-star {
+  color: var(--appio-star-color);
+  font-family: AppioSymbols !important;
+  line-height: 1;
+  font-size: var(--appio-star-size);
+  text-transform: none;
+  margin: 0 !important;
+  transform: scale(0.95);
+}
+.appio-star + .appio-star {
+  /* margin-left: 2px; */
+}
+
+.appio-rating-badge {
+  display: flex;
+  align-items: center;
+}
+.appio-rating-badge + .appio-rating-badge,
+header .appio-rating-badge,
+footer .appio-rating-badge {
+  display: none;
+}
+.appio-rating-badge .appio-rating-content {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+  background: var(--appio-rating-badge-background);
+  color: var(--appio-rating-badge-color);
+  padding: var(--appio-rating-badge-padding);
+  border-radius: 20px;
+  line-height: 1;
+  flex-wrap: wrap;
+  width: fit-content;
+  position: relative;
+  cursor: pointer;
+}
+
+.appio-rating-layers {
+  --appio-rating-value: 5;
+  position: relative;
+}
+.appio-rating-layers .appio-stars:first-child {
+  justify-content: right;
+  margin-left: calc(100% * var(--appio-rating-value) / 5);
+  width: calc(100% * (5 - var(--appio-rating-value)) / 5);
+  overflow: hidden;
+}
+.appio-rating-layers .appio-stars:nth-child(2) {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: calc(100% * var(--appio-rating-value) / 5);
+  overflow: hidden;
+}
+
+.appio-rating-major {
+  font-size: var(--appio-fontsize);
+  font-weight: normal;
+}
+
+.appio-center-box {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.appio-rating-raters {
+  margin-left: 5px;
+  /* white-space: nowrap; */
+  font-size: calc(var(--appio-star-size) * 0.85);
+}
+
+#appio-review-rating label,
+.appio-allrvs-box .appio-star {
+  color: var(--appio-highlight-color) !important;
+}
+
+/* review-form css */
+#appio-review-rating {
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+.appio-review-rating-notify {
+  font-size: 16px;
+  color: inherit;
+  white-space: nowrap;
+}
+#appio-review-rating input {
+  position: absolute;
+  top: -9999px;
+}
+#appio-review-rating label {
+  float: right;
+  cursor: pointer;
+  color: var(--appio-star-color);
+  white-space: nowrap;
+  font-size: 22px;
+  font-weight: initial;
+  margin: 0;
+  padding: 2px;
+  width: fit-content;
+  line-height: 1;
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: block;
+  text-transform: none;
+  letter-spacing: normal;
+}
+#appio-review-rating input:checked ~ label:before {
+  border-radius: 100px;
+  outline-style: solid;
+  outline-color: currentColor;
+  outline-width: 0;
+  outline-offset: -20px;
+}
+#appio-review-rating input:checked ~ label[active]:before {
+  transition: all 0.3s ease;
+  outline-color: transparent;
+  outline-width: 12px;
+  outline-offset: 40px;
+}
+.appio-review-rating-box {
+  display: flex;
+  align-items: center;
+}
+.appio-button-submit-review {
+  background: var(--appio-action-button-fill);
+  color: var(--appio-action-button-color);
+  margin: 20px 0 0 0 !important;
+}
+.appio-media-upload-box {
+  margin: 8px 0;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.appio-media-upload-item {
+  border: 1px solid var(--appio-button-border-color);
+  display: inline-block;
+  height: 80px;
+  position: relative;
+  margin-right: 10px;
+}
+.appio-media-upload-item img {
+  height: 100%;
+  border-radius: 0;
+}
+.appio-media-upload-button {
+  border-radius: var(--appio-button-border-radius);
+  border: max(1px, var(--appio-border-size)) solid
+    var(--appio-button-border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+}
+.appio-media-upload-button label {
+  cursor: pointer;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  line-height: 15px !important;
+  font-size: 12px !important;
+  font-weight: initial !important;
+  font-family: inherit;
+  text-align: center !important;
+  margin: auto 0;
+}
+.appio-media-upload-button label:before {
+  font-family: AppioSymbols;
+  content: "\bc";
+  transform: rotate(45deg);
+  display: inline-block;
+  font-size: 23px;
+  color: var(--appio-highlight-color);
+  transition: transform 0.3s ease;
+}
+.appio-media-upload-button:hover label:before {
+  transform: scale(1.2) rotate(135deg);
+}
+.appio-media-upload-button .appio-button-upload {
+  width: 100%;
+  height: 23px;
+  margin: 3px auto;
+  fill: var(--appio-highlight-color);
+  transition: transform 0.5s ease;
+}
+.appio-media-upload-button > div {
+  line-height: 15px;
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.appio-media-remove-button:before {
+  font-family: AppioSymbols;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1;
+  content: "\be";
+  cursor: pointer;
+  color: black;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px;
+}
+.appio-media-remove-button {
+  opacity: 0.6;
+}
+.appio-media-remove-button:hover {
+  opacity: 1;
+}
+/* end review-form */
+
+/* input validation */
+.appio-error-input {
+  border-color: #ff3860 !important;
+}
+.appio-error-input + .appio-validation-message {
+  opacity: 1;
+  animation: showValidationMessage 0.5s ease;
+}
+.appio-validation-message {
+  opacity: 0;
+  font-size: 14px;
+  color: #ff3860;
+  vertical-align: top;
+  font-weight: normal;
+  transform: translateY(-8px);
+  height: 20px;
+  line-height: 1;
+  padding-top: 5px;
+}
+
+@keyframes showValidationMessage {
+  from {
+    transform: translateY(-15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-8px);
+    opacity: 1;
+  }
+}
+
+@keyframes starError {
+  from {
+    transform: translateY(-8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.rating-notify-alert {
+  color: #ff3860 !important;
+  animation: starError 0.5s ease;
+}
+/* end of input validation */
+
+.appio-msg-box .appio-msg-main {
+  border: 1px solid var(--appio-box-border-color);
+  box-shadow: rgb(0 0 0 / 20%) 0 18px 30px -10px;
+  border-radius: var(--appio-review-card-border-radius);
+  background: white;
+  color: #333333;
+  padding: 40px min(5vw, 40px);
+  padding-top: 50px;
+  height: fit-content;
+  width: 500px;
+  max-width: 100vw;
+  min-width: 20vw;
+  min-height: 50px;
+  max-height: 100vh;
+  overflow-y: auto;
+  margin: calc(15vh) auto;
+  position: relative;
+  line-height: 1.5;
+  box-sizing: content-box;
+}
+.appio-msg-box .appio-message-content {
+  color: #333;
+  text-align: center;
+  font-size: 20px;
+}
+.appio-msg-box .appio-message-button-ok {
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  border: 1px solid var(--appio-box-border-color);
+  min-width: 150px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  background: var(--appio-action-button-fill);
+  color: var(--appio-action-button-color);
+}
+.appio-msg-box .appio-close-button {
+  color: gray;
+  margin: 15px;
+}
+
+#appioPreviewNotice {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  background: #891717;
+  color: white;
+  padding: 5px 20px;
+  z-index: 1000;
+}
+#appioPreviewNotice > p {
+  display: inline-flex;
+  align-items: flex-end;
+  padding: 0;
+  margin: 0;
+}
+#appioPreviewNotice > p > img {
+  height: 30px;
+  width: unset;
+  margin-right: 10px;
+  border-radius: 0;
+}
+#appioPreviewNotice > p > a {
+  color: yellow;
+  text-decoration: none;
+}
+.appio-write-1st {
+  cursor: pointer;
+}
+.appio-filter-box-inline {
+  width: 70%;
+  min-width: 220px;
+  max-width: 320px;
+  margin: 0 20px;
+}
+.appio-filter-box-inline .appio-star {
+  height: 14px;
+  font-size: 13px;
+}
+.appio-filter-box .appio-rating-line-star {
+  cursor: pointer;
+  margin-right: 5px;
+  width: auto;
+  justify-content: right;
+}
+.appio-grid-container {
+  display: grid;
+  grid-template-columns: 0fr auto 0fr;
+}
+.appio-col3 {
+  padding-left: 10px;
+}
+.lz-entered.lz-error {
+  display: none;
+}
+
+.appio-body[list] .appio-review-item-holder:not(:first-child) {
+  border-top: 1px solid var(--appio-box-border-color);
+  margin-top: 16px;
+}
+.appio-body[list] .appio-review-item-main {
+  padding: 16px 0;
+}
+.appio-body[list] .appio-review-media-item video {
+  width: auto;
+}
+
+.appio-body:not([list]) .appio-review-media-item video {
+  width: 100%;
+}
+.appio-body:not([list]) .appio-reviews-box {
+  padding-bottom: 30px;
+}
+.appio-body:not([list]) .appio-review-item {
+  border: var(--appio-border-review-card);
+  box-shadow: rgb(0 0 0 / 20%) 0 10px 22px -10px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+  border-radius: var(--appio-review-card-border-radius);
+  background: var(--appio-review-card-fill);
+  flex-shrink: 0;
+  height: fit-content;
+}
+.appio-body:not([list]) .appio-review-item-main {
+  padding: 16px;
+}
+.appio-body:not([list]) .appio-reply-box {
+  border-top: 1px solid var(--appio-box-border-color);
+}
+.appio-review-item[card] .appio-reply-box {
+  border-radius: 0 0 calc(var(--appio-button-border-radius) * 0.75)
+    calc(var(--appio-button-border-radius) * 0.75);
+}
+
+.appio-body[line] .appio-reviews-box {
+  display: flex;
+  overflow: auto !important;
+}
+.appio-body[line] .appio-review-item-holder {
+  width: 25%;
+  min-width: var(--appio-card-min-width);
+}
+
+.appio-body[slide] .appio-review-media-item video {
+  width: auto !important;
+}
+.appio-body[slide] .appio-reply-box {
+  text-align: center;
+}
+.appio-body[slide] .appio-review-verified {
+  position: relative;
+  padding-left: 10px;
+}
+.appio-body[slide] .appio-reviews-box {
+  padding-bottom: 0;
+}
+.appio-body[slide] .appio-review-item-holder {
+  width: 25%;
+  min-width: var(--appio-card-min-width);
+  /*max-width: var(--appio-card-max-width);*/
+}
+.appio-body[slide] .appio-review-item-holder {
+  position: relative !important;
+}
+.appio-body[slide] .appio-review-item {
+  border: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appio-body[slide] .appio-review-item-media-box-top {
+  justify-content: center;
+}
+.appio-body[slide] .appio-review-item-media-box-top img {
+  width: 5% !important;
+}
+.appio-body[slide] .appio-review-item-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.appio-body[slide] .appio-reviews-box {
+  padding-bottom: 40px !important;
+}
+.appio-body[slide] .swiper-pagination {
+  bottom: 0 !important;
+}
+.appio-body[slide] .appio-review-item-body {
+  width: 100%;
+  word-wrap: break-word;
+  text-align: center;
+}
+.appio-body[slide] .appio-review-item-date {
+  margin-left: 10px;
+}
+.appio-body[slide] .appio-reviews-box {
+  overflow-y: hidden !important;
+}
+.appio-body[slide] .appio-reviews-box .swiper-pagination-bullet-active {
+  background: var(--appio-major-color) !important;
+}
+.appio-body[slide] .appio-reviews-box .swiper-button-prev,
+.appio-body[slide] .appio-reviews-box .swiper-button-next {
+  display: none;
+}
+.appio-body[slide] .swiper-pagination-bullet {
+  display: inline-block !important;
+}
+
+.appio-body[grid] .appio-review-item-holder {
+  position: absolute;
+}
+
+.appio-body[roll] .appio-reviews-box {
+  overflow-y: hidden !important;
+  display: flex;
+}
+.appio-body[roll] .appio-reviews-box[loop] {
+  padding-bottom: 80px;
+}
+.appio-body[roll] .appio-reviews-box .swiper-slide {
+  font-size: unset;
+}
+.appio-body[roll] .appio-review-item-body {
+  word-wrap: break-word;
+}
+.appio-body[roll] .appio-reviews-box .swiper-pagination-bullet {
+  display: inline-block !important;
+}
+.appio-body[roll] .appio-reviews-box .swiper-button-prev,
+.appio-body[roll] .appio-reviews-box .swiper-button-next {
+  display: initial;
+  color: lightgray !important;
+}
+.appio-body[roll] .appio-reviews-box .swiper-pagination-bullet-active {
+  background: var(--appio-major-color) !important;
+}
+.appio-body[roll] .appio-reviews-box .swiper-pagination {
+  bottom: 15px !important;
+}
+.appio-body[roll] .appio-reviews-box .swiper-button-next,
+.appio-body[roll] .appio-reviews-box .swiper-button-prev {
+  top: calc(100% - 23px) !important;
+}
+
+/* for allrvs box reviews as "list" */
+.appio-allrvs-box[list] .appio-review-item-holder {
+  position: unset !important;
+  width: unset;
+  min-width: unset;
+  max-width: unset;
+}
+.appio-allrvs-box[list] .appio-review-item-holder:not(:first-child) {
+  border-top: 1px solid var(--appio-box-border-color);
+  margin-top: 16px;
+}
+
+.appio-allrvs-box[list] .appio-review-item {
+  border: unset;
+  box-shadow: unset;
+  overflow: unset;
+  margin: unset;
+  padding: unset;
+  white-space: unset;
+  border-radius: unset;
+  background: unset;
+  flex-shrink: unset;
+  height: unset;
+  color: unset;
+}
+
+.appio-allrvs-box[list] .appio-review-item-main {
+  display: unset;
+  flex-direction: unset;
+  justify-content: unset;
+  align-items: unset;
+  padding: 16px 0;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.appio-allrvs-box[list] .appio-review-item-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.appio-allrvs-box[list] .appio-review-item-date {
+  margin-left: unset;
+  flex-shrink: 0;
+  padding-left: 5px;
+}
+
+.appio-allrvs-box[list] .appio-review-verified {
+  padding-left: unset;
+  height: 16px;
+  width: auto;
+  position: absolute;
+  right: 0;
+  margin-top: 5px;
+}
+
+.appio-allrvs-box[list] .appio-review-item-body {
+  padding-top: unset;
+  width: unset;
+  word-wrap: unset;
+  text-align: unset;
+}
+
+.appio-allrvs-box[list] .appio-reply-box {
+  text-align: unset;
+}
+
+.appio-body[list] .appio-review-product-title {
+  margin-left: 0;
+}
+
+.appio-review-helpful {
+  padding-top: 1em;
+}
+
+.appio-reviews-box[slide] .appio-review-helpful {
+  text-align: center;
+}
+
+.appio-review-helpful-inline {
+  font-size: var(--appio-fontsize-sub);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #a0a0a0;
+  width: fit-content;
+  line-height: 1;
+}
+.appio-review-helpful-inline svg {
+  fill: currentColor;
+  margin-right: 0.4em;
+  width: 1.2em;
+  height: 1.2em;
+}
+.appio-review-helpful-inline[liked="1"] svg {
+  fill: var(--appio-star-color);
+}
+.appio-review-helpful-inline .liked-number i {
+  display: inline;
+  border-left: 1px solid currentColor;
+  opacity: 0.5;
+  margin: 0 0.8em;
+  line-height: 1;
+}
+.appio-review-helpful .liked-number {
+  margin-top: 0.1em;
+}
+
+.appio-review-item[card] {
+  position: relative;
+}
+.appio-review-body-wrap {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--appio-review-lines);
+  -webkit-box-orient: vertical;
+  line-height: 1.5;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+.appio-reviews-widget .appio-review-body-wrap[has-click] {
+  cursor: pointer;
+}
+.appio-backdrop .appio-review-item-main {
+  max-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+}
+.appio-backdrop .appio-review-body-wrap {
+  display: block;
+  overflow: auto;
+}
+.appio-backdrop .appio-review-body-wrap[readmore]:after {
+  content: "";
+}
+.appio-review-item-body {
+  margin-top: 0.5em;
+}
+.appio-review-body-wrap[readmore] {
+  pointer-events: none;
+}
+.appio-review-body-wrap[readmore]:after {
+  content: var(--appio-readmore);
+  display: block;
+  position: absolute;
+  padding: 0 5px;
+  bottom: 0;
+  right: 0;
+  color: var(--appio-highlight-color);
+  border-radius: 50px;
+  /* background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1)
+  );
+  padding-left: 40px; */
+  pointer-events: all;
+  cursor: pointer;
+  background: var(--appio-review-card-fill);
+  padding-left: 10px;
+}
+.appio-review-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+.appio-review-popup {
+  position: absolute;
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  top: 130%;
+  z-index: 1000;
+  left: -25px;
+  animation: reviewsPopupGrowth ease-in 0.2s;
+  will-change: opacity, transform;
+  border-radius: 10px;
+  cursor: default;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 3px 10px -2px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 25px;
+  line-height: 1;
+  width: max-content;
+  display: none;
+}
+.appio-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.appio-review-popup::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  right: 178px;
+  transform: rotate(45deg);
+  top: -5px;
+  background: #fff;
+  border-bottom-color: white;
+  border-right-color: white;
+}
+.appio-review-popup::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -14px;
+  width: 150px;
+  height: 14px;
+}
+@keyframes reviewsPopupGrowth {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* .appio-rating-badge .appio-rating-content:hover .appio-review-popup { */
+.appio-rating-content:hover .appio-review-popup {
+  display: flex;
+}
+.appio-popup-header-score {
+  margin-right: 30px;
+}
+.appio-popup-header-score span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.appio-popup-footer {
+  color: var(--appio-highlight-color);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+  cursor: pointer;
+}
+.appio-review-popup .appio-rating-line-star {
+  cursor: default !important;
+}
+.appio-review-popup .appio-rating-line-star {
+  padding: 3px 6px 3px 0;
+}
+.appio-review-popup .appio-filter-box-inline {
+  margin: 0;
+}
+@media (max-width: 1023px) {
+  .appio-review-popup {
+    display: none !important;
+  }
+}
+.swiper-button-disabled.swiper-button-lock {
+  display: none !important;
+}
+.appio-tooltip {
+  position: relative;
+}
+.appio-tooltip .appio-tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+.appio-tooltip:hover .appio-tooltiptext {
+  visibility: visible;
+}
+.appio-rating {
+  font-weight: bold;
+  padding-right: 5px;
+  font-size: calc(var(--appio-star-size) * 1);
+}
+.appio-reviews-summary {
+  font-weight: bold;
+  /* font-size: calc(var(--appio-fontsize) * 1.1); */
+  color: var(--appio-star-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.appio-media-list {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+.appio-media-list .appio-review-media-item {
+  height: var(--appio-thumb-size);
+  width: var(--appio-thumb-size);
+  object-fit: cover;
+  overflow-clip-margin: unset;
+  flex-shrink: 0;
+}
+.appio-review-for-media {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  padding: 5px 35px 30px 35px;
+  margin: 5px;
+  z-index: 9;
+  background: #000000aa;
+  color: #ccc;
+  font-size: 14px;
+  max-height: 30vh;
+  overflow: auto;
+  pointer-events: none;
+  border-radius: 1em;
+  transition: all 0.5s ease;
+}
+.appio-review-for-media:after {
+  content: "\bc";
+  font-family: AppioSymbols;
+  font-size: 15px;
+  font-style: normal;
+  color: orange;
+  width: 15px;
+  height: 15px;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  position: absolute;
+  cursor: pointer;
+  line-height: 1;
+  pointer-events: all;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+.appio-review-for-media:hover:after {
+  transform: scale(1.2) rotate(90deg);
+}
+.appio-review-for-media[small] {
+  pointer-events: all;
+  cursor: pointer;
+  right: unset;
+  bottom: unset;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  z-index: 100;
+}
+.appio-review-for-media[small]:after {
+  content: "";
+  cursor: unset;
+}
+.appio-review-for-media[small] .appio-review-body-wrap,
+.appio-review-for-media[small] .appio-review-row > * {
+  display: none;
+}
+.appio-review-for-media[small] .appio-stars {
+  display: unset;
+  cursor: pointer;
+  margin: 5px 10px 0 10px;
+}
+.appio-review-for-media .appio-review-item-name {
+  flex-grow: unset;
+  margin-right: unset;
+}
+.appio-review-for-media .appio-stars {
+  margin: calc(0.6 * var(--appio-star-size)) 20px;
+}
+.appio-review-for-media .appio-review-row {
+  justify-content: center;
+}
+.appio-media-list video {
+  width: var(--appio-thumb-size);
+}
+appio-rating {
+  display: none;
+}
+.appio-popup-footer svg {
+  height: 20px;
+  width: 35px;
+}
